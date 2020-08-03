@@ -1,4 +1,4 @@
-# creativeML2020
+# CreativeML2020
 Creative Machine Learning Examples for 2020
 
 

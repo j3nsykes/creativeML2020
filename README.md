@@ -10,7 +10,7 @@ Detailed explanations, walk-throughs and direct links to each teaching exercise 
 ### Teachable Machine
 These  examples all run in the P5JS editor and import simple image classification models trained using the [teachable Machine](https://teachablemachine.withgoogle.com/) 
 
-To view all the examples see the [P5JS Teachable Machine Collection](https://editor.p5js.org/jen_GSA/collections/GXB0ygNcE)
+To view the full list of examples see the [P5JS Teachable Machine Collection](https://editor.p5js.org/jen_GSA/collections/GXB0ygNcE)
 
 <strong>Key examples include:</strong>
 * [Image Classification Template](https://editor.p5js.org/jen_GSA/sketches/x8tRUnLsRJ)
@@ -22,7 +22,7 @@ To view all the examples see the [P5JS Teachable Machine Collection](https://edi
 ### ML5
 These examples run in the P5JS editor and explore varying ML5 functions such as classification, regression and pre-trained models. 
 
-To view all the examples see the [ML5 Collection](https://editor.p5js.org/jen_GSA/collections/62PzgvAoj)
+To view the full list of examples see the [ML5 Collection](https://editor.p5js.org/jen_GSA/collections/62PzgvAoj)
 
 <strong>Key examples include:</strong>
 * [Webcam Image Classifier](https://editor.p5js.org/jen_GSA/sketches/1q_93qGx0)
@@ -34,7 +34,7 @@ To view all the examples see the [ML5 Collection](https://editor.p5js.org/jen_GS
 ### DIY Neural Nets in ML5
 These examples live in the P5JS editor and explore how to use the ML5 Neural Net function to build templates for training any input, in particular, Physical Computing inputs. 
 
-To view all the examples see the [DIY Neural Net Collection](https://editor.p5js.org/jen_GSA/collections/XLcVf38z2)
+To view the full list of examples see the [DIY Neural Net Collection](https://editor.p5js.org/jen_GSA/collections/XLcVf38z2)
 
 <strong>Key examples include:</strong>
 * [Basic template](https://editor.p5js.org/jen_GSA/sketches/oRKaOHzK)
@@ -51,7 +51,7 @@ Each method will be outlined below.
 #### Training directly in ML5 with the neural net function
 You can send serial messages from any Arduino input directly into P5JS and use the ML5 neural net function to train these. You will need the corresponding Arduino code uplaoded on to your board for each example to work. The corresponding Arduino code can be found in the [Physical teachable Machines folder]() on this repo or each .ino file is directly referenced at the top of P5JS code. 
 
-To view all the examples see the [ML5 Teachable Machine collection](https://editor.p5js.org/jen_GSA/collections/FWD_DfCPa)
+To view the full list of examples see the [ML5 Teachable Machine collection](https://editor.p5js.org/jen_GSA/collections/FWD_DfCPa)
 
 <strong>Key examples include:</strong>
 * [Classify 3 serial inputs](https://editor.p5js.org/jen_GSA/sketches/dns24nOSN)

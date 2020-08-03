@@ -98,14 +98,14 @@ The example listed are referenced from <strong>Dominic Pajak and Sandeep Mistry<
 These examples build upon the existing [RunwayML Processing library] and [P5JS examples] taking these further to explore experimental interactions with text generating chat bots, capacitive touch latent walks, speech feedback loops and motorised outputs to name a few. Have an explore!
 
 <strong>Key Processing examples include:</strong>
-* [Simple KNN template]()
-* [Classify Colour]()
-* [Classify Orientation]()
+* [Trill Capacitive Touch to StyleGAN latent space](https://github.com/j3nsykes/creativeML2020/tree/master/PhysicalRunwayExperiements/Processing/TrillCapacitiveTouch_StyleGAN)
+* [ElizaChatBot to AttGAN](https://github.com/j3nsykes/creativeML2020/tree/master/PhysicalRunwayExperiements/Processing/Eliza_AttGAN)
+* [GPT2- SpokenOutput](https://github.com/j3nsykes/creativeML2020/tree/master/PhysicalRunwayExperiements/Processing/GPT2-SpokenOutput/GPT2_speech)
 
 <strong>Key P5JS examples include:</strong>
-* [Simple KNN template]()
-* [Classify Colour]()
-* [Classify Orientation]()
+* [StyleGAN Latent Walk](https://editor.p5js.org/jen_GSA/sketches/WKRBKt88)
+* [Speech Recognition to GPT2](https://editor.p5js.org/jen_GSA/sketches/gTuBw-ki)
+* [Hosted Model Template](https://editor.p5js.org/jen_GSA/sketches/9dtBZ75NT)
 
 The P5JS [Runway Collection](https://editor.p5js.org/jen_GSA/collections/NIHmmfpXs) houses all the examples including new ways of connecting via hosted models. 
 

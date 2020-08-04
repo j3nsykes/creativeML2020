@@ -95,7 +95,7 @@ The example listed are referenced from <strong>Dominic Pajak and Sandeep Mistry<
 
 
 ### RunwayML
-These examples build upon the existing [RunwayML Processing library] and [P5JS examples] taking these further to explore experimental interactions with text generating chat bots, capacitive touch latent walks, speech feedback loops and motorised outputs to name a few. Have an explore!
+These examples build upon the existing [RunwayML Processing library](https://github.com/runwayml/processing-library) and [P5JS examples](https://github.com/runwayml/p5js) taking these basic network structures further to explore experimental interactions with chat bot generating imagery, capacitive touch latent walks, speech feedback loops and motorised outputs to name a few. Have an explore!
 
 <strong>Key Processing examples include:</strong>
 * [Trill Capacitive Touch to StyleGAN latent space](https://github.com/j3nsykes/creativeML2020/tree/master/PhysicalRunwayExperiements/Processing/TrillCapacitiveTouch_StyleGAN)

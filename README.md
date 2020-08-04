@@ -51,7 +51,7 @@ Each method will be outlined below.
 #### Training directly in ML5 with the neural net function
 You can send serial messages from any Arduino input directly into P5JS and use the ML5 neural net function to train these. You will need the corresponding Arduino code uplaoded on to your board for each example to work. The corresponding Arduino code can be found in the [Physical teachable Machines folder]() on this repo or each .ino file is directly referenced at the top of P5JS code. 
 
-To view the full list of examples see the [ML5 Teachable Machine collection](https://editor.p5js.org/jen_GSA/collections/FWD_DfCPa)
+To view the full list of examples see the [Physical Teachable Machine collection](https://editor.p5js.org/jen_GSA/collections/FWD_DfCPa)
 
 <strong>Key examples include:</strong>
 * [Classify 3 serial inputs](https://editor.p5js.org/jen_GSA/sketches/dns24nOSN)

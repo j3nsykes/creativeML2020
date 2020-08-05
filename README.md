@@ -51,7 +51,7 @@ Each method will be outlined below.
 #### Training directly in ML5 with the neural net function
 You can send serial messages from any Arduino input directly into P5JS and use the ML5 neural net function to train these. You will need the corresponding Arduino code uplaoded on to your board for each example to work. The corresponding Arduino code can be found in the [Physical teachable Machines folder]() on this repo or each .ino file is directly referenced at the top of P5JS code. 
 
-To view the full list of examples see the [ML5 Teachable Machine collection](https://editor.p5js.org/jen_GSA/collections/FWD_DfCPa)
+To view the full list of examples see the [Physical Teachable Machine collection](https://editor.p5js.org/jen_GSA/collections/FWD_DfCPa)
 
 <strong>Key examples include:</strong>
 * [Classify 3 serial inputs](https://editor.p5js.org/jen_GSA/sketches/dns24nOSN)
@@ -95,7 +95,7 @@ The example listed are referenced from <strong>Dominic Pajak and Sandeep Mistry<
 
 
 ### RunwayML
-These examples build upon the existing [RunwayML Processing library] and [P5JS examples] taking these further to explore experimental interactions with text generating chat bots, capacitive touch latent walks, speech feedback loops and motorised outputs to name a few. Have an explore!
+These examples build upon the existing [RunwayML Processing library](https://github.com/runwayml/processing-library) and [P5JS examples](https://github.com/runwayml/p5js) taking these basic network structures further to explore experimental interactions with chat bot generating imagery, capacitive touch latent walks, speech feedback loops and motorised outputs to name a few. Have an explore!
 
 <strong>Key Processing examples include:</strong>
 * [Trill Capacitive Touch to StyleGAN latent space](https://github.com/j3nsykes/creativeML2020/tree/master/PhysicalRunwayExperiements/Processing/TrillCapacitiveTouch_StyleGAN)

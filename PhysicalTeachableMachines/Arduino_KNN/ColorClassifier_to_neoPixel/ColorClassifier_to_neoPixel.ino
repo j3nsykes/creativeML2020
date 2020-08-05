@@ -51,7 +51,7 @@ const int THRESHOLD = 5;
 
 // Which pin on the Arduino is connected to the NeoPixels?
 // Which pin on the Arduino is connected to the NeoPixels?
-#define PIN        6 // On Trinket or Gemma, suggest changing this to 1
+#define PIN        2 // On Trinket or Gemma, suggest changing this to 1
 
 // How many NeoPixels are attached to the Arduino?
 #define NUMPIXELS 16 // Popular NeoPixel ring size
@@ -60,9 +60,9 @@ const int THRESHOLD = 5;
 // and which pin to use to send signals. Note that for older NeoPixel
 // strips you might need to change the third parameter -- see the
 // strandtest example for more information on possible values.
-Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
+Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_RGBW + NEO_KHZ800);
 
-#define DELAYVAL 500 // Time (in milliseconds) to pause between pixels
+#define DELAYVAL 50 // Time (in milliseconds) to pause between pixels
 
 
 void setup() {
@@ -99,7 +99,13 @@ void setup() {
   }
   pinMode(13, OUTPUT);
   pixels.begin(); // INITIALIZE NeoPixel strip object (REQUIRED)
-
+  for (int i = 0; i < NUMPIXELS; i++) { // For each pixel...
+    // pixels.Color() takes RGB values, from 0,0,0 up to 255,255,255
+    // Here we're using a moderately bright green color:
+    pixels.setPixelColor(i, pixels.Color(0, 0, 0));//black = off
+    pixels.show();   // Send the updated pixel colors to the hardware.
+    delay(DELAYVAL); // Pause before next pass through loop
+  }
 }
 
 
@@ -121,21 +127,46 @@ void loop() {
   // Print the classification
   Serial.print("You showed me ");
   Serial.println(label[classification]);
-  //Serial.println(classification);
+  Serial.println(classification);
 
-
-  // The first NeoPixel in a strand is #0, second is 1, all the way up
-  // to the count of pixels minus one.
+ switch (classification) {
+    case 0: //first label
+      //do something here
   for (int i = 0; i < NUMPIXELS; i++) { // For each pixel...
 
     // pixels.Color() takes RGB values, from 0,0,0 up to 255,255,255
     // Here we're using a moderately bright green color:
-    pixels.setPixelColor(i, pixels.Color(color[0], color[1], color[2]));
-
+    pixels.setPixelColor(i, pixels.Color(0, 255, 0));//black = off
     pixels.show();   // Send the updated pixel colors to the hardware.
-
     delay(DELAYVAL); // Pause before next pass through loop
   }
+      break;
+    case 1: //second label
+      //do something here
+    for (int i = 0; i < NUMPIXELS; i++) { // For each pixel...
+
+    // pixels.Color() takes RGB values, from 0,0,0 up to 255,255,255
+    // Here we're using a moderately bright green color:
+    pixels.setPixelColor(i, pixels.Color(255, 0, 0));//black = off
+    pixels.show();   // Send the updated pixel colors to the hardware.
+    delay(DELAYVAL); // Pause before next pass through loop
+  }
+      break;
+    case 2: //third label
+      //do something here
+  for (int i = 0; i < NUMPIXELS; i++) { // For each pixel...
+    // pixels.Color() takes RGB values, from 0,0,0 up to 255,255,255
+    // Here we're using a moderately bright green color:
+    pixels.setPixelColor(i, pixels.Color(100, 200, 0));//black = off
+    pixels.show();   // Send the updated pixel colors to the hardware.
+    delay(DELAYVAL); // Pause before next pass through loop
+  }
+      break;
+    default:
+      break;
+
+  }
+
 
 }
 

@@ -64,10 +64,10 @@ If you are using the <strong>serial</strong> examples you will also need to run 
 
 If you are using the <strong>webUSB</strong> examples you do not require any 3rd party apps. However, you will need to make sure your Arduino board is compatible. A list of compatible boards can be found [here](https://github.com/webusb/arduino)
 
-#### Training in the Arduino IDE with the Simple_KNN library.
-In the past year is has become more accessible to train sensor inputs directly on the micro-controller (Arduino) using [TensorflowLite](https://github.com/arduino/ArduinoTensorFlowLiteTutorials) and [KNN libraries](https://github.com/arduino-libraries/Arduino_KNN). 
+#### Arduino IDE and the Simple_KNN library.
+In the past year is has become more accessible to run Machine Learning algrithms directly on the micro-controller (Arduino) using [TensorflowLite](https://github.com/arduino/ArduinoTensorFlowLiteTutorials) and [KNN libraries](https://github.com/arduino-libraries/Arduino_KNN). 
 
-This repo contains examples to get you started training classification models all self-contained in Arduino. You can also find examples taking the basic structure one or two steps further to trigger different physical outputs. 
+This repo contains examples to get you started using KNN algorithms all self-contained in Arduino. You can also find examples taking the basic structure one or two steps further to trigger different physical outputs. 
 
 <strong>Key examples include:</strong>
 * [Simple KNN template](https://github.com/j3nsykes/creativeML2020/tree/master/PhysicalTeachableMachines/Arduino_KNN/SimpleKNN)

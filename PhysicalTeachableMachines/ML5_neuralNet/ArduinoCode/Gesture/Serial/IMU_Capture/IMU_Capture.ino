@@ -71,15 +71,15 @@ void loop() {
 
       // print the data in CSV format
       Serial.print(aX, 3);
-      Serial.print(',');
+      Serial.println(',');
       Serial.print(aY, 3);
-      Serial.print(',');
+      Serial.println(',');
       Serial.print(aZ, 3);
-      Serial.print(',');
+      Serial.println(',');
       Serial.print(gX, 3);
-      Serial.print(',');
+      Serial.println(',');
       Serial.print(gY, 3);
-      Serial.print(',');
+      Serial.println(',');
       Serial.print(gZ, 3);
       Serial.println();
 
